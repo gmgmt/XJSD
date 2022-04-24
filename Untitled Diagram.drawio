@@ -1,23 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T02:37:01.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="gSAdGHT3hxPeHPNQVXh9" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T03:05:28.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AR86_w_hCY0dtRpY3Ddh" version="17.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1209" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="2181" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="9dCkcroUT4bmMejYirZd-361" value="fixtrues(辅助层)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="40" width="110" height="50" as="geometry" />
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-23" value="框架结构" style="swimlane;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="176" width="402" height="658" as="geometry">
+            <mxRectangle x="840" y="181" width="99" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9dCkcroUT4bmMejYirZd-364" value="用例层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="40" width="110" height="50" as="geometry" />
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-24" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;common/&lt;br&gt;公共方法封装&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="146" y="57" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9dCkcroUT4bmMejYirZd-365" value="业务逻辑层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="40" width="110" height="50" as="geometry" />
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;install/&lt;br&gt;二次封装源码&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="35" y="159" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9dCkcroUT4bmMejYirZd-366" value="PageObject层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="40" width="110" height="50" as="geometry" />
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;report/&lt;br&gt;测试报告数据&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="71" y="282" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9dCkcroUT4bmMejYirZd-367" value="元素层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="40" width="110" height="50" as="geometry" />
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-27" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;app/&lt;br&gt;具体测试应用&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="77" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-28" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;config.ini&lt;br&gt;全局配置文件&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="105" y="532" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;conftest.py&lt;br&gt;前置后置处理&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="234" y="192" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;pytest.ini&lt;br&gt;pytest全局配置&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="257" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;requirements.txt&lt;br&gt;项目所需第三方库&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-23">
+          <mxGeometry x="242" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-51" value="APP结构" style="swimlane;fontSize=14;startSize=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="253" y="177" width="410" height="660" as="geometry">
+            <mxRectangle x="356" y="832" width="146" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-56" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;app/run.py&lt;br&gt;程序运行入口&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="142" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-59" target="KldV-UdYdAW6FQme_F-Q-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-59" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;case/&lt;br&gt;所有测试用例集&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="142" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-64" target="KldV-UdYdAW6FQme_F-Q-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-64" target="KldV-UdYdAW6FQme_F-Q-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-64" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;page/&lt;br&gt;POM页面对象模型&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="142" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-68" target="KldV-UdYdAW6FQme_F-Q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-68" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;config.ini&lt;br&gt;app全局配置文件&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="22" y="156" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-56" target="KldV-UdYdAW6FQme_F-Q-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-70" target="KldV-UdYdAW6FQme_F-Q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-70" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;conftest.py&lt;br&gt;app前置后置处理&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="262" y="156" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-56" target="KldV-UdYdAW6FQme_F-Q-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-51" source="KldV-UdYdAW6FQme_F-Q-73" target="KldV-UdYdAW6FQme_F-Q-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-73" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;flow/&lt;br&gt;公共业务抽象流程&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="142" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-61" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;element/&lt;br&gt;页面元素集&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="22" y="566" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-66" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;image/&lt;br&gt;图片匹配集&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-51">
+          <mxGeometry x="259" y="566" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KldV-UdYdAW6FQme_F-Q-71" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KldV-UdYdAW6FQme_F-Q-64" target="KldV-UdYdAW6FQme_F-Q-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1049" as="sourcePoint" />
+            <mxPoint x="840" y="999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="743" y="657" />
+              <mxPoint x="743" y="263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
