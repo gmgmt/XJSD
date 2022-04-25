@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T03:24:02.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PSQ4j-ePv4oIuHEchi-W" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T03:26:21.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SuegcT6DRaiKjXGRNwIK" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3022" dy="1447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2557" dy="1225" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -51,7 +51,7 @@
           <mxGeometry x="198" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KldV-UdYdAW6FQme_F-Q-97" value="APP结构" style="swimlane;fontSize=14;startSize=28;" parent="KldV-UdYdAW6FQme_F-Q-83" vertex="1">
-          <mxGeometry x="37" y="45" width="410" height="660" as="geometry">
+          <mxGeometry x="37" y="45" width="410" height="693" as="geometry">
             <mxRectangle x="356" y="832" width="146" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -97,11 +97,30 @@
         <mxCell id="KldV-UdYdAW6FQme_F-Q-111" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;flow/&lt;br&gt;公共业务抽象流程&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="KldV-UdYdAW6FQme_F-Q-97" vertex="1">
           <mxGeometry x="142" y="353" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VRRvfAbfFZYEZ9n-gOxl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-97" source="KldV-UdYdAW6FQme_F-Q-112" target="VRRvfAbfFZYEZ9n-gOxl-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="621" />
+              <mxPoint x="202" y="621" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KldV-UdYdAW6FQme_F-Q-112" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;element/&lt;br&gt;页面元素集&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="KldV-UdYdAW6FQme_F-Q-97" vertex="1">
-          <mxGeometry x="22" y="566" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="551" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VRRvfAbfFZYEZ9n-gOxl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="KldV-UdYdAW6FQme_F-Q-97" source="KldV-UdYdAW6FQme_F-Q-113" target="VRRvfAbfFZYEZ9n-gOxl-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="621" />
+              <mxPoint x="202" y="621" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KldV-UdYdAW6FQme_F-Q-113" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;image/&lt;br&gt;图片匹配集&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="KldV-UdYdAW6FQme_F-Q-97" vertex="1">
-          <mxGeometry x="259" y="566" width="120" height="60" as="geometry" />
+          <mxGeometry x="262" y="551" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VRRvfAbfFZYEZ9n-gOxl-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;report/&lt;br&gt;测试报告数据&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="KldV-UdYdAW6FQme_F-Q-97">
+          <mxGeometry x="142" y="641" width="120" height="42" as="geometry" />
         </mxCell>
         <mxCell id="KldV-UdYdAW6FQme_F-Q-114" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="KldV-UdYdAW6FQme_F-Q-83" source="KldV-UdYdAW6FQme_F-Q-103" target="KldV-UdYdAW6FQme_F-Q-86" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
