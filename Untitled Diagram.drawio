@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T02:54:41.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pNf-CU3QyyIwpZfEwi9t" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T02:56:04.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="drVWbBntELM10wqLlL8T" version="17.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1146" dy="520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -671,7 +671,7 @@
           <mxGeometry x="633" y="78" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_sRsulRlbzAxDWL_UkrH-272" value="&lt;b&gt;USB3.0传输线&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="712" y="239" width="127" height="26" as="geometry" />
+          <mxGeometry x="755" y="25" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_sRsulRlbzAxDWL_UkrH-273" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sRsulRlbzAxDWL_UkrH-250" target="_sRsulRlbzAxDWL_UkrH-259">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -701,6 +701,18 @@
               <mxPoint x="367" y="165" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_sRsulRlbzAxDWL_UkrH-276" value="&lt;b&gt;标识&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="137" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_sRsulRlbzAxDWL_UkrH-277" value="&lt;b&gt;标识&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="421" y="199" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_sRsulRlbzAxDWL_UkrH-278" value="&lt;b&gt;标识&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="396" y="311" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_sRsulRlbzAxDWL_UkrH-279" value="&lt;b&gt;标识&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="528" y="308" width="46" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
