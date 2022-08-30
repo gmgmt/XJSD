@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T06:39:00.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cnVmRAGwhTDCD5mpYsTj" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T06:46:12.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YaT41_r9-sfr5kBxwu75" version="20.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1890" dy="-941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="-1150" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -37,7 +37,7 @@
         <mxCell id="2s0qxEssO6G0uXbcbGAq-12" value="&lt;b&gt;XR-人脸检测&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="234.00000000000003" y="2193" width="87" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-14" value="批量检测" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-14" value="批量检测（图片）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="251.7" y="2321" width="383.59" height="81" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-15" value="照片检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -118,18 +118,6 @@
         <mxCell id="2s0qxEssO6G0uXbcbGAq-40" value="&lt;b&gt;XR-人脸识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="234" y="2672" width="87" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-41" value="选取数据集及标注文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="261.5" y="2771" width="140" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-42" value="批量检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="501.49999999999994" y="2771" width="140" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-43" value="照片检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="261.5" y="2917" width="140" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-44" value="摄像头检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="501.49999999999994" y="2917" width="140" height="81" as="geometry" />
-        </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-45" value="" style="shape=link;html=1;rounded=0;exitX=0.001;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2s0qxEssO6G0uXbcbGAq-39" target="2s0qxEssO6G0uXbcbGAq-39" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="297.99999999999994" y="2705" as="sourcePoint" />
@@ -140,109 +128,94 @@
           <mxGeometry x="389.99999999999994" y="3065" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-47" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="715.0699999999999" y="2664" width="433" height="433" as="geometry" />
+          <mxGeometry x="1745.1399999999999" y="1675" width="433" height="433" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-48" value="&lt;b&gt;XR-人脸识别-数据集&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="722" y="2672" width="127" height="26" as="geometry" />
+          <mxGeometry x="1752.07" y="1683" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-49" value="&lt;b&gt;生成标注文件&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="866.94" y="2943" width="117.06" height="64" as="geometry" />
+          <mxGeometry x="1897.01" y="1954" width="117.06" height="64" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-51" value="" style="shape=link;html=1;rounded=0;exitX=0.001;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2s0qxEssO6G0uXbcbGAq-47" target="2s0qxEssO6G0uXbcbGAq-47" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="786.0699999999999" y="2705" as="sourcePoint" />
-            <mxPoint x="886.0699999999999" y="2705" as="targetPoint" />
+            <mxPoint x="1816.1399999999999" y="1716" as="sourcePoint" />
+            <mxPoint x="1916.1399999999999" y="1716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-52" value="&lt;b&gt;人脸识别-数据集页面&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="858.0699999999999" y="3065" width="130" height="26" as="geometry" />
+          <mxGeometry x="1888.1399999999999" y="2076" width="130" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-55" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1747" y="2664" width="433" height="433" as="geometry" />
+          <mxGeometry x="1208.57" y="2662" width="433" height="433" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-56" value="&lt;b&gt;XR-人脸识别-摄像头识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1749.5" y="2672" width="151" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-57" value="选取数据集及标注文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1788" y="2885" width="131" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-58" value="照片检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1798" y="2939.5" width="111" height="43" as="geometry" />
+          <mxGeometry x="1211.07" y="2670" width="151" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-59" value="" style="shape=link;html=1;rounded=0;exitX=0.001;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2s0qxEssO6G0uXbcbGAq-55" target="2s0qxEssO6G0uXbcbGAq-55" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="1818" y="2705" as="sourcePoint" />
-            <mxPoint x="1918" y="2705" as="targetPoint" />
+            <mxPoint x="1279.57" y="2703" as="sourcePoint" />
+            <mxPoint x="1379.57" y="2703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-60" value="&lt;b&gt;人脸识别-摄像头识别页面&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1878" y="3065" width="154" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-61" value="摄像头实时画面" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1764.93" y="2722" width="184" height="148" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-62" value="数据结果输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1992" y="2861" width="184" height="111" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-63" value="图片结果输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1992" y="2722" width="184" height="103" as="geometry" />
+          <mxGeometry x="1339.57" y="3063" width="154" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-82" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1211.5" y="2664" width="433" height="433" as="geometry" />
+          <mxGeometry x="716" y="2662" width="433" height="433" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-83" value="&lt;b&gt;XR-人脸识别-照片识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1212.4299999999998" y="2672" width="139" height="26" as="geometry" />
+          <mxGeometry x="716.9299999999998" y="2670" width="139" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-84" value="选取图片" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1253.43" y="2937" width="131" height="48" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-84" value="选取图片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="757.9300000000001" y="2935" width="131" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-85" value="开始检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1479.3600000000001" y="2939.5" width="111" height="43" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-85" value="开始检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="983.8600000000001" y="2937.5" width="111" height="43" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-86" value="" style="shape=link;html=1;rounded=0;exitX=0.001;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2s0qxEssO6G0uXbcbGAq-82" target="2s0qxEssO6G0uXbcbGAq-82" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="1282.5" y="2705" as="sourcePoint" />
-            <mxPoint x="1382.5" y="2705" as="targetPoint" />
+            <mxPoint x="787" y="2703" as="sourcePoint" />
+            <mxPoint x="887" y="2703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-87" value="&lt;b&gt;人脸识别-照片识别页面&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1348.5" y="3065" width="142" height="26" as="geometry" />
+          <mxGeometry x="853" y="3063" width="142" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-88" value="图片结果输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1229.43" y="2722" width="184" height="206" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-88" value="图片结果输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="733.93" y="2762" width="184" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-89" value="数据结果输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1443.43" y="2722" width="184" height="206" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-89" value="数据结果输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="947.93" y="2761" width="184" height="165" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-91" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="863.36" y="2845" width="42" height="27" as="geometry" />
+          <mxGeometry x="1893.4299999999998" y="1856" width="42" height="27" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-92" value="&lt;b&gt;PG注册集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="755.36" y="2845" width="107" height="26" as="geometry" />
+          <mxGeometry x="1785.4299999999998" y="1856" width="107" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-93" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="863.36" y="2896" width="42" height="27" as="geometry" />
+          <mxGeometry x="1893.4299999999998" y="1907" width="42" height="27" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-94" value="&lt;b&gt;PN注册集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="755.36" y="2896" width="107" height="26" as="geometry" />
+          <mxGeometry x="1785.4299999999998" y="1907" width="107" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-95" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1064.91" y="2845" width="42" height="27" as="geometry" />
+          <mxGeometry x="2094.98" y="1856" width="42" height="27" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-96" value="&lt;b&gt;PG识别集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="956.9100000000001" y="2845" width="107" height="26" as="geometry" />
+          <mxGeometry x="1986.98" y="1856" width="107" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-97" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1064.91" y="2896" width="42" height="27" as="geometry" />
+          <mxGeometry x="2094.98" y="1907" width="42" height="27" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-98" value="&lt;b&gt;PN识别集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="956.9100000000001" y="2896" width="107" height="26" as="geometry" />
+          <mxGeometry x="1986.98" y="1907" width="107" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-99" value="选取数据集" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="770.5400000000001" y="2771" width="91" height="40" as="geometry" />
+          <mxGeometry x="1800.6100000000001" y="1782" width="91" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-100" value="&lt;b&gt;&lt;i&gt;数据集文件地址&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="891.47" y="2777.5" width="179" height="28.5" as="geometry" />
+          <mxGeometry x="1921.54" y="1788.5" width="179" height="28.5" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-101" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="388" y="2540" width="111" height="43" as="geometry" />
@@ -259,26 +232,17 @@
         <mxCell id="2s0qxEssO6G0uXbcbGAq-105" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1265.9299999999998" y="2540" width="111" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-106" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="393.99999999999994" y="3022" width="111" height="43" as="geometry" />
-        </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-107" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="978.07" y="3016" width="111" height="43" as="geometry" />
+          <mxGeometry x="2008.1399999999999" y="2027" width="111" height="43" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-108" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="773.21" y="3019" width="111" height="43" as="geometry" />
+          <mxGeometry x="1803.28" y="2030" width="111" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-109" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1463.93" y="3017.5" width="111" height="43" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-109" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="968.4300000000001" y="3015.5" width="111" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-110" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1259.0700000000002" y="3020.5" width="111" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-111" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2010.43" y="3007" width="111" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="2s0qxEssO6G0uXbcbGAq-112" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1805.5700000000002" y="3010" width="111" height="43" as="geometry" />
+        <mxCell id="2s0qxEssO6G0uXbcbGAq-110" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="763.5700000000002" y="3018.5" width="111" height="43" as="geometry" />
         </mxCell>
         <mxCell id="2s0qxEssO6G0uXbcbGAq-113" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="474" y="3157" width="433" height="433" as="geometry" />
@@ -546,6 +510,123 @@
         </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-43" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;选取数据集及标注文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1776" y="2268" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-44" value="批量识别（图片）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="247.2" y="2798.5" width="383.59" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-45" value="照片识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="257" y="2915.5" width="140" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-46" value="摄像头识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="484.5" y="2914.5" width="140" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-47" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="383.5" y="3017.5" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-48" value="&lt;b&gt;&lt;i&gt;旷世 / 星纪算法&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="362.5" y="2736" width="251.09" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-49" value="&lt;b&gt;选择配置文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250.50000000000006" y="2734.5" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-50" value="&lt;b&gt;&lt;i&gt;旷世 / 星纪算法&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="853.53" y="2721.5" width="266.47" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-51" value="&lt;b&gt;选择配置文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="741.53" y="2720" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-52" value="选择摄像头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1269.01" y="2926.5" width="100.07" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-53" value="照片识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1266.0499999999997" y="2965" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-54" value="摄像头实时画面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1227.0499999999997" y="2760.5" width="184" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-55" value="数据结果输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1442.9799999999998" y="2869.5" width="184" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-56" value="图片结果输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1445.2099999999998" y="2760.5" width="184" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-57" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1466.55" y="3017.5" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-58" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1266.0499999999997" y="3017.5" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-59" value="&lt;b&gt;&lt;i&gt;旷世 / 星纪算法&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1333.12" y="2721" width="285" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-60" value="&lt;b&gt;选择配置文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1226.19" y="2721" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-61" value="&lt;b&gt;&lt;i&gt;摄像头列表&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1223.5499999999997" y="2889.5" width="196" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-62" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1744.27" y="2664" width="433" height="433" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-63" value="&lt;b&gt;XR-人脸检测-批量识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1752.77" y="2672" width="139" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-64" value="开始批量注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1870.5399999999997" y="2974.5" width="187.93" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-65" value="" style="shape=link;html=1;rounded=0;exitX=0.001;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="99VE7l3lXHtII9_AHD7N-62" target="99VE7l3lXHtII9_AHD7N-62">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1815.27" y="2705" as="sourcePoint" />
+            <mxPoint x="1915.27" y="2705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-66" value="&lt;b&gt;人脸检测-摄像头检测页面&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1875.27" y="3065" width="154" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-67" value="数据结果输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1785.43" y="2886" width="357" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-68" value="返回主页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2018.14" y="3024" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-69" value="返回上一页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1796.84" y="3022" width="111" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-70" value="&lt;b&gt;&lt;i&gt;旷世 / 星纪算法&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1890.1299999999999" y="2722.5" width="250" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-71" value="&lt;b&gt;选择配置文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1785.27" y="2722.5" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-72" value="&lt;b&gt;&lt;i&gt;数据集和标注文件地址&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=46;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1933.1399999999999" y="2761" width="223.86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-73" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;选取数据集及标注文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1775.9999999999998" y="2731" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-75" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1887.7699999999998" y="2800" width="42" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-76" value="&lt;b&gt;PG注册集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1779.7699999999998" y="2800" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-77" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1887.7699999999998" y="2840" width="42" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-78" value="&lt;b&gt;PN注册集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1779.7699999999998" y="2839" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-79" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2089.32" y="2800" width="42" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-80" value="&lt;b&gt;PG识别集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1981.32" y="2800" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-81" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2089.32" y="2839" width="42" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-82" value="&lt;b&gt;PN识别集数量：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1981.32" y="2840" width="107" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
