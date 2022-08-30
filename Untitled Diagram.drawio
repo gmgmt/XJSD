@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T06:47:51.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7yju9MBXzWgMo0P9za0k" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T06:48:06.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bTO-hXa5vRJ4vFZej2KA" version="20.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1890" dy="-941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -568,7 +568,7 @@
         <mxCell id="99VE7l3lXHtII9_AHD7N-62" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1744.27" y="2664" width="433" height="433" as="geometry" />
         </mxCell>
-        <mxCell id="99VE7l3lXHtII9_AHD7N-63" value="&lt;b&gt;XR-人脸检测-批量识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="99VE7l3lXHtII9_AHD7N-63" value="&lt;b&gt;XR-人脸识别-批量识别&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1752.77" y="2672" width="139" height="26" as="geometry" />
         </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-64" value="开始批量注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
