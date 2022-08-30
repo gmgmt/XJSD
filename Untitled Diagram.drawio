@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T06:37:33.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gO8L8C9kI9O269JVoSMZ" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T06:39:00.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cnVmRAGwhTDCD5mpYsTj" version="20.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2268" dy="-798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1890" dy="-941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -508,9 +508,6 @@
         <mxCell id="99VE7l3lXHtII9_AHD7N-26" value="&lt;b&gt;XR-人脸检测-批量检测&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1753.64" y="2193" width="139" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="99VE7l3lXHtII9_AHD7N-27" value="&lt;b&gt;选取数据集及标注文件：&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1785.14" y="2295" width="135.98" height="36" as="geometry" />
-        </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-28" value="开始批量注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1867.6799999999998" y="2472" width="187.93" height="43" as="geometry" />
         </mxCell>
@@ -533,7 +530,7 @@
           <mxGeometry x="1797.71" y="2543" width="111" height="43" as="geometry" />
         </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-36" value="&lt;b&gt;&lt;i&gt;旷世 / 星纪算法&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1921.7500000000002" y="2243.5" width="196" height="23" as="geometry" />
+          <mxGeometry x="1891" y="2243.5" width="250" height="23" as="geometry" />
         </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-37" value="&lt;b&gt;选择配置文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1786.14" y="2243.5" width="102" height="26" as="geometry" />
@@ -546,6 +543,9 @@
         </mxCell>
         <mxCell id="99VE7l3lXHtII9_AHD7N-42" value="&lt;b&gt;&lt;i&gt;摄像头列表&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1223.4299999999998" y="2412" width="196" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="99VE7l3lXHtII9_AHD7N-43" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;选取数据集及标注文件：&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1776" y="2268" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
