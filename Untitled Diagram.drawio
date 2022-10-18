@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:43:48.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WlSkXTZPnU_9MLIMMGuX" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T09:44:13.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="y5kTvgY25A_W3pjkrfb1" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="42337" dy="13382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="VfnQHaAsHj3RiXwpqHbw-64" value="&lt;font style=&quot;font-size: 300px;&quot;&gt;&lt;b style=&quot;&quot;&gt;PC2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=200;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3592" y="4241" width="602" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="VfnQHaAsHj3RiXwpqHbw-65" value="&lt;font style=&quot;font-size: 300px;&quot;&gt;&lt;b style=&quot;&quot;&gt;机械臂&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=200;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-4976" y="5412" width="918" height="372" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
