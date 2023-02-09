@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:27:00.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lVQVlNL5EhffvsOnM78W" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:27:42.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8NQTMe8CNTszIpSWXyh-" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="11190" dy="945" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -312,6 +312,16 @@
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-39" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;do&amp;nbsp;registerDlnaEvent&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8153" y="852" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-41" target="5LY4gU-elMz4sfbSCV3y-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-8028" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-7824" y="1007" />
+              <mxPoint x="-7824" y="1100" />
+              <mxPoint x="-8028" y="1100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-41" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;sync_glass_battery_info&lt;br&gt;同步电量信息&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8153" y="968" width="250" height="77" as="geometry" />
