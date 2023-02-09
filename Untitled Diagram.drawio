@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:42:20.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S6uIjkuoRfPmqMHgz3_6" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:43:52.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CJNnVduJH8vx6jMKtl9K" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="10251" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -310,6 +310,29 @@
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-65" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Mars点击连接&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8518" y="1863" width="132" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-67" target="5LY4gU-elMz4sfbSCV3y-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-67" target="5LY4gU-elMz4sfbSCV3y-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-67" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;手机向眼镜发送连接消息&lt;/div&gt;&lt;div&gt;（此时附带设备&lt;span style=&quot;&quot; class=&quot;text-only text-with-abbreviation text-with-abbreviation-bottomline windows-bottomline&quot;&gt;mac地址&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;text-only&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="1982" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-68" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;initBrEdrConnectedDeviceList&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="2105" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-69" target="5LY4gU-elMz4sfbSCV3y-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-8822" y="2204" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-8842" y="2149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-69" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;眼镜端30s未处理，手机端自动触发onRecv command = DISCONNECT_BLE&lt;/div&gt;&lt;div&gt;&lt;div&gt;此时&lt;span style=&quot;&quot; class=&quot;text-only text-with-abbreviation text-with-abbreviation-bottomline windows-bottomline&quot;&gt;UI&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;text-only&quot;&gt;现在连接失败，需点击重新连接&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8947" y="1982" width="250" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
