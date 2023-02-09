@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:25:58.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H-YdhhHEAEZKtWExwgmI" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:27:00.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lVQVlNL5EhffvsOnM78W" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="10293" dy="540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11190" dy="945" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -90,8 +90,8 @@
         </mxCell>
         <mxCell id="ObdFsfVrSIYjFMmIgfOH-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-8565.75" y="474" as="sourcePoint" />
-            <mxPoint x="-8704.75" y="472" as="targetPoint" />
+            <mxPoint x="-8213" y="897" as="sourcePoint" />
+            <mxPoint x="-8352" y="895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ObdFsfVrSIYjFMmIgfOH-7" value="用户打开手机蓝牙之后才开始监听广播" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -307,8 +307,17 @@
         <mxCell id="5LY4gU-elMz4sfbSCV3y-37" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;注册DeviceConnectionListener&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8153" y="737" width="250" height="77" as="geometry" />
         </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-39" target="5LY4gU-elMz4sfbSCV3y-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-39" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;do&amp;nbsp;registerDlnaEvent&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8153" y="852" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-41" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;sync_glass_battery_info&lt;br&gt;同步电量信息&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8153" y="968" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-43" value="&lt;b&gt;1S&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8007" y="933" width="33" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
