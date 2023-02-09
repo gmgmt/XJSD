@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:44:56.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DccjLSB1KveqK7mErcB1" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:46:03.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_okzXNgfdCVsLvO3QkrG" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="10492" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,6 +320,9 @@
         <mxCell id="5LY4gU-elMz4sfbSCV3y-67" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;手机向眼镜发送连接消息&lt;/div&gt;&lt;div&gt;（此时附带设备&lt;span style=&quot;&quot; class=&quot;text-only text-with-abbreviation text-with-abbreviation-bottomline windows-bottomline&quot;&gt;mac地址&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;text-only&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8636" y="1982" width="250" height="77" as="geometry" />
         </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-68" target="5LY4gU-elMz4sfbSCV3y-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-68" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;initBrEdrConnectedDeviceList&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8636" y="2105" width="250" height="77" as="geometry" />
         </mxCell>
@@ -339,18 +342,21 @@
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-74" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-8338" y="2122" as="sourcePoint" />
-            <mxPoint x="-8178" y="2122" as="targetPoint" />
+            <mxPoint x="-8340" y="2145" as="sourcePoint" />
+            <mxPoint x="-8191" y="2207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-75" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;点击确认&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-8147" y="2101" width="250" height="77" as="geometry" />
+          <mxGeometry x="-8149" y="2182" width="250" height="77" as="geometry" />
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-76" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-8187" y="2173" as="sourcePoint" />
-            <mxPoint x="-8341" y="2173" as="targetPoint" />
+            <mxPoint x="-8182" y="2239" as="sourcePoint" />
+            <mxPoint x="-8339" y="2289" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-77" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;获取对方设备信息，createBrEdrBond&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;onRecv command = CONNECT_GC&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="2238" width="250" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
