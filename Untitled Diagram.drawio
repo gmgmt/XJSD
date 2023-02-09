@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:29:25.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XlVvfI3dLEGyWd-xVSDO" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:30:30.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oLGrxB2Zaoc7Yuq1XByS" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="11190" dy="945" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10553" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -256,6 +256,21 @@
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-47" value="&lt;b&gt;持续，时间不定？&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-7515" y="863" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-50" target="5LY4gU-elMz4sfbSCV3y-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-50" value="&lt;div&gt;Mars开机检测设备信息，设置setOwnerDeviceId&lt;/div&gt;&lt;div&gt;&lt;b&gt;StarryNetController: Bond data load finish&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="852" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LY4gU-elMz4sfbSCV3y-52" target="5LY4gU-elMz4sfbSCV3y-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-52" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;创建StarryNetService&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="979" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-53" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;初始化XRStarryNetDiscovery&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;调用enableFastConnect&lt;/div&gt;&lt;div&gt;开始发送广播&lt;/div&gt;&lt;div&gt;强制打开蓝牙&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="1104" width="250" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
