@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:44:07.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KNLYuweIoELNeuTTFzDa" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:44:56.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DccjLSB1KveqK7mErcB1" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="10251" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10492" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -336,6 +336,21 @@
         </mxCell>
         <mxCell id="5LY4gU-elMz4sfbSCV3y-73" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;点击重新连接&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-8889" y="2074" width="126" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-74" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8338" y="2122" as="sourcePoint" />
+            <mxPoint x="-8178" y="2122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-75" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;点击确认&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8147" y="2101" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-76" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8187" y="2173" as="sourcePoint" />
+            <mxPoint x="-8341" y="2173" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
