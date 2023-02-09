@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:48:52.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0xm44mnrZqqZHCPEs0Mv" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:50:11.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t_D2urXIHtJEP4skvaXe" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="10492" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,6 +381,18 @@
             <mxPoint x="-8333" y="2560" as="sourcePoint" />
             <mxPoint x="-8213" y="2558" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-86" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;Mars未进入超级APP时&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8636" y="2635" width="250" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-87" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8337" y="2670" as="sourcePoint" />
+            <mxPoint x="-8217" y="2668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LY4gU-elMz4sfbSCV3y-89" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;眼镜端连续发送同步电量信息&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-8149" y="2640" width="250" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
